@@ -18,7 +18,7 @@ You will need to have the following installed:
 ### Windows
 Building on windows requires additional software:
 
-* [Visual Studio 2017 or 2015](https://visualstudio.microsoft.com/)
+* [Visual Studio 2019, 2017 or 2015](https://visualstudio.microsoft.com/)
 * [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk) (may be installed with Visual Studio 2017 Installer)
 
 ### Example Build
@@ -30,8 +30,8 @@ yarn install
 git submodule update --init --recursive
 mkdir build
 cd build
-cmake .. -G"Visual Studio 15 2017" -A x64
-cmake --build .
+cmake .. -G"Visual Studio 16 2019" -A x64
+cmake --build . --config Release
 cpack -G ZIP
 ```
 
