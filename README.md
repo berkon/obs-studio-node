@@ -18,7 +18,7 @@ You will need to have the following installed:
 ### Windows
 Building on windows requires additional software:
 
-* [Visual Studio 2017 or 2015](https://visualstudio.microsoft.com/)
+* [Visual Studio 2019, 2017 or 2015](https://visualstudio.microsoft.com/)
 * [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk) (may be installed with Visual Studio 2017 Installer)
 
 ### Example Build
